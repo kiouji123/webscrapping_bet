@@ -16,4 +16,4 @@ The project go in this order.
 
 
 The project go to a web page and recover fresh data for soccer matches, later createa  a file in a specific path, refresh the data an send the email, to a friends.
-
+PS: Dont forget to change the parameters.
