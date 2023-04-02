@@ -111,9 +111,9 @@ def send_email_y(subject, message, to_email, from_email, password, file_path, wo
 
 subject = "Resutado del dia"
 message = "Porcentaje y resultados del dia generales y especificos."
-to_email = "juanre_68@hotmail.com"
-from_email = "juanre060894@gmail.com"
-password = "jdlwjzmbahaxvbwq"
+to_email = "yourmail@hotmail.com"
+from_email = "yourmail@gmail.com"
+password = "yourpassword"
 
 
 
@@ -926,14 +926,6 @@ try:
     send_email_y(subject, message, to_email, from_email, password,pathb + file_nameb,file_nameb)
     print('Se envio el correo admin')
     send_email_y(subject, message, to_email, from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'rtriguerosvargas@gmail.com', from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'Gustavocarazasc@gmail.com', from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'Willmezamotta@gmail.com', from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'Ricardo.950219@gmail.com', from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'a.escrib137@gmail.com', from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'Zadihr90@gmail.com', from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'mamoblitas@gmail.com', from_email, password,patha + file_namec,file_namec)
-    send_email_y(subject, message, 'jhmciurliza@gmail.com', from_email, password,patha + file_namec,file_namec)
     print('Se envio el correo a los clientes')
     #SELENIUM ---------------------------XXXXXXXXXXXXXXXXX
 
