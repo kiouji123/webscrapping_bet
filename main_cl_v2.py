@@ -512,9 +512,9 @@ def send_email_x(subject, message, to_email, from_email, password):
 subject = "Elecciones del dia."
 subjecx = "Todos los pronosticos del dia."
 message = "Selecciones del dia. Leyenda: DEV1 = Mayor valor (-), TOV2 = Mayor valor (+), AVV3 = Mayor valor (+), EFIC_1 = Ratio Historico de Exito por Liga segun Logica (+), EFIC_2 = Ratio Historico de Exito por Liga segun Cuotas (+)"
-to_email = "juanre_68@hotmail.com"
-from_email = "juanre060894@gmail.com"
-password = "jdlwjzmbahaxvbwq"
+to_email = "yourmail8@hotmail.com"
+from_email = "yourmail@gmail.com"
+password = "yourpassword"
 
 
 
@@ -1417,15 +1417,6 @@ try:
     time.sleep(segc)
     send_email_y(subject, message, to_email, from_email, password,pathc + file_namec,file_namec)
 
-
-    send_email_y(subject, message, 'rtriguerosvargas@gmail.com', from_email, password,pathc + file_namec,file_namec)
-    send_email_y(subject, message, 'Gustavocarazasc@gmail.com', from_email, password,pathc + file_namec,file_namec)
-    send_email_y(subject, message, 'Willmezamotta@gmail.com', from_email, password,pathc + file_namec,file_namec)
-    send_email_y(subject, message, 'Ricardo.950219@gmail.com', from_email, password,pathc + file_namec,file_namec)
-    send_email_y(subject, message, 'a.escrib137@gmail.com', from_email, password,pathc + file_namec,file_namec)
-    send_email_y(subject, message, 'Zadihr90@gmail.com', from_email, password,pathc + file_namec,file_namec)
-    send_email_y(subject, message, 'mamoblitas@gmail.com', from_email, password,pathc + file_namec,file_namec)
-    send_email_y(subject, message, 'jhmciurliza@gmail.com', from_email, password,pathc + file_namec,file_namec)
     print('Se envio el correo a clientes')
     time.sleep(segc)
 
